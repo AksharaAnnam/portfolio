@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashanth Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/291869b459.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo_prashanth.jpg" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#Coding-Profiles">Coding Profiles</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ML Enthusiastic</p>
+                <h1> Hey, I'm <span>Prashanth Reddy</span><br> Kondapuram !</h1>
+            </div>
+        </div>
+    </div>  
+<!----------------------------about--------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/prashanth_profile.jpg" alt="Prashanth">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I'm a Prashanth Reddy Kondapuram, undergraduate student at CBIT, deeply immersed in Web Development, ML & Data Science. Fueled by curiosity, I turn knowledge into hands-on projects for true mastery. With a strong academic base and software development experience, I contribute to groundbreaking projects, staying at the forefront of technology. Welcome to my portfolio, where curiosity meets technical innovation.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>Java, Python, C, SQL </li>
+                        <li><span>Coursework</span><br>DSA, DBMS, OOPs,Operating Systems, Computer Networks </li>
+                        <!-- <li><span>Core-Subjects</span><br>Machine Learning, Artificial Intelligence, Natural Language Processing, Deep Learning</li> -->
+                        <li><span>Data Analysis & Visualizations</span><br>NumPy, Pandas, Matplotlib, Seaborn, Plotly, Scipy</li>
+                        <li><span>DataBases</span><br>SQL, MongoDB</li>
+                        <li><span>Development</span><br>HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS</li>
+                        <li><span>Tools</span><br>GitHub, VS-Code, MySQL, Jupyter Notebook</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        
+                        <li><span>Crimson Innovative Technologies </span><br>Web Development Intern  </li>
+                        <p>◦ Gained hands-on experience in MERN Stack (MongoDB, Express.js, React, Node.js) by developing full-stack web
+                            applications.</p>
+                        <p>◦ Developed RESTful APIs with Node.js and Express to manage backend services and handle data from MongoDB.</p>
+                        <li><span>YBI Foundation </span><br>Data Science and Machine Learning Intern <a href="https://drive.google.com/file/d/1AsWYwiK9qs6u3XqepTy08Njg4_Yq-dZl/view?usp=sharing" target="_blank">Certificate</a></li>
+                        <p>◦ Developed multiple machine learning models for fake news detection, including Logistic Regression (LR), Decision Tree (DT), and Random Forest (RF).</p>
+                        <p>◦ Used TfidfVectorizer for feature extraction from text data to convert articles into numerical format suitable for ML models.</p> 
+                        <br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Chaitanya Bharathi Institute Of Technology</span><br>B.E- Computer Science & Engineering<br>CGPA–9.68/10</li>
+                        <br>
+                        <li><span>Masabtank Polytechnicl College </span><br>SBTET Diploma – CSE<br>Percentage –98.9%</li>
+                        <br>
+                        <li><span>Panchavati High School</span><br>TSBSE High School<br>CGPA - 10.00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------------------certfications----------------------------------------->
+<div id="Certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>
+                <h2>Machine Learning </h2>
+                <p>YBI FOUNDATION - Machine Learning Course</p>
+                <a href="https://drive.google.com/file/d/1AsWYwiK9qs6u3XqepTy08Njg4_Yq-dZl/view?usp=sharing">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>Full Stack Using MERN</h2>
+                <p>CISCO</p>
+                <a href="https://drive.google.com/file/d/1ZzpBE2seEQtZrQpI458jydELUTflsof6/view?usp=sharing">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Java</h2>
+                <p>Coursera</p>
+                <a href="https://drive.google.com/file/d/1GQeSNzFEf5xB786eeYm604Ir4FEJl86F/view?usp=sharing">Certificate</a>
+            </div>
+            <!-- <div>
+                <i class="fa-brands fa-dev"></i>
+                <h2>Web Development</h2>
+                <p>Internshala</p>
+                <a href="https://drive.google.com/drive/folders/1E5YRa_pnfb2CKXgVOq81HX_SCsaao-KF">Certificate</a>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ----------portfolio----=------------------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Personal Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpeg" alt="WINGSPAN - A Canteen Management System">
+                <div class="layer">
+                    <h3>Online Food Ordering System</h3>
+                    <p>Developed a full-stack food ordering platform with React and Node.js, integrating Stripe for secure payments and MongoDB for real-time order tracking.</p>
+                    <a href="https://github.com/prashanth316/Food-Deliver-Full-Stack-"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/fraud_detection.jpg" alt="Fraud Detection System for Medical Claims">
+                <div class="layer">
+                    <h3>Fraud Detection System for Medical Claims</h3>
+                    <p>Preprocessed medical claims data, applied SMOTE for class imbalance, and optimized an SVM model for fraud detection with high ROC-AUC scores.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cancer_prediction.jpg" alt="Cancer Rate Prediction System">
+                <div class="layer">
+                    <h3>Cancer Rate Prediction System</h3>
+                    <p>Engineered features with One-Hot Encoding, handled outliers with Z-score, and managed skewed data with IQR. Optimized an OLS Regression model using p-value analysis.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/prashanth316?tab=repositories" class="btn">Wanna have look for all my projects</a>
+    </div>
+</div>
+
+
+<!-----------------------------------------Coding Prodiles---------------------------------------------->
+<div id ="Coding-Profiles">
+    <div class ="container">
+        <h1 class="sub-title">Coding Profiles </h1>
+        <div class="coding-list">
+            <div>
+                
+                <i class="fa-solid fa-code"></i>
+                <h2>LeetCode</h2>
+                <a href="https://leetcode.com/u/KONDAPURAM_PRASAHNTH_REDDY/">Profile Link</a>
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>GeeksForGeeks</h2>
+                <a href="https://www.geeksforgeeks.org/user/kpredd3sas/">Profile Link</a>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- ----------contact------------- -->
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> <a href="mailto:sreevaishnavikaripe03@gmail.com">kpreddy091@gmail.com</a></p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9381653431</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/prashanth-reddy-kondapuram-79b553292/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/prashanth316"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download - Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Prashanth Reddy Kondapuram</p>
+    </div>
+</div>
+
+
+
+<script>
+    function opentab(tabname) {
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzKFfpsdn8COrbzQmB_Ys0RwO0AwEPUXGB-6G0xEAeOg3zqIemW0sNYG_-XDREeGa0Z/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
